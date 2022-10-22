@@ -40,6 +40,7 @@ static bool Ending(int takes, int upperLimit)
 {
     Separator();
     Console.WriteLine($"Congratulations you have correctly guess the number from 1 to {upperLimit} in {takes} takes.");
+    Console.WriteLine($"Ideally solution should be finished in max {Math.Ceiling(Math.Log2(upperLimit)) + 1} takes - yours was in {takes} takes.");
     Console.WriteLine("Do you wish to continue? y/n");
 
     var character = Console.ReadKey();
