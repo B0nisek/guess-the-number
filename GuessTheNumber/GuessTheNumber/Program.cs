@@ -29,7 +29,7 @@ static void Intro()
     Console.WriteLine("Welcome to the GuessTheNumber application.");
     Console.WriteLine("I will try to guess the number you are thinking.");
     Console.WriteLine("Number will range from 1 to upper limit which I will ask for in a moment.");
-    Console.WriteLine("If I'm wrong I will need you to tell me if the number is less then or greater than my initial prediction.");
+    Console.WriteLine("If I'm wrong I will need you to tell me if the number is less than or greater than my initial prediction.");
     Console.WriteLine("If the number is less then than my initial prediction press '-'");
     Console.WriteLine("If the number is greater then than my initial prediction press '+'");
     Console.WriteLine("If the number is correct press '='");
